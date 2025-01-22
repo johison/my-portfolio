@@ -4,6 +4,7 @@ import { defineAsyncComponent } from 'vue';
 
 const NavBar = defineAsyncComponent(()=>import('@/components/NavBar.vue'));
 const Hero = defineAsyncComponent(()=>import('@/components/Hero.vue'));
+const ServiceSection = defineAsyncComponent(()=>import('@/components/ServiceSection.vue'));
 
 </script>
 
@@ -11,6 +12,7 @@ const Hero = defineAsyncComponent(()=>import('@/components/Hero.vue'));
   <div class="bg-[#111827] min-h-screen">
     <NavBar />
     <Hero />
+    <ServiceSection />
      
   </div>
 </template>
