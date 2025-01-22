@@ -7,6 +7,8 @@ const Hero = defineAsyncComponent(()=>import('@/components/Hero.vue'));
 const ServiceSection = defineAsyncComponent(()=>import('@/components/ServiceSection.vue'));
 const AboutSection = defineAsyncComponent(()=>import('@/components/AboutSection.vue'));
 const ExperienceAndSkills = defineAsyncComponent(()=>import('@/components/ExperienceAndSkills.vue'));
+const Projects = defineAsyncComponent(()=>import('@/components/Projects.vue'));
+const ContactSection = defineAsyncComponent(()=>import('@/components/ContactSection.vue'));
 
 
 </script>
@@ -18,6 +20,8 @@ const ExperienceAndSkills = defineAsyncComponent(()=>import('@/components/Experi
     <ServiceSection />
     <AboutSection />
     <ExperienceAndSkills />
+    <Projects />
+    <ContactSection />
      
   </div>
 </template>
