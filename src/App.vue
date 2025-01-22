@@ -6,6 +6,7 @@ const NavBar = defineAsyncComponent(()=>import('@/components/NavBar.vue'));
 const Hero = defineAsyncComponent(()=>import('@/components/Hero.vue'));
 const ServiceSection = defineAsyncComponent(()=>import('@/components/ServiceSection.vue'));
 const AboutSection = defineAsyncComponent(()=>import('@/components/AboutSection.vue'));
+const ExperienceAndSkills = defineAsyncComponent(()=>import('@/components/ExperienceAndSkills.vue'));
 
 
 </script>
@@ -16,6 +17,7 @@ const AboutSection = defineAsyncComponent(()=>import('@/components/AboutSection.
     <Hero />
     <ServiceSection />
     <AboutSection />
+    <ExperienceAndSkills />
      
   </div>
 </template>
